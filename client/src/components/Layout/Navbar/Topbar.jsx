@@ -11,11 +11,15 @@ const Topbar = () => {
         </h6>
         <h6>
           {" "}
-          <i class="fa-solid fa-clock"></i> 10:00am TO 10:00pm
+          <i className="fa-solid fa-clock"></i> 10:00am TO 10:00pm
         </h6>
         <h6>
           {" "}
-          <i class="fa-solid fa-envelope"></i> help@techinfoyt.com
+          <i className="fa-solid fa-envelope"></i> help@techinfoyt.com
+        </h6>
+        <h6>
+          {" "}
+          <i className="fa-solid fa-caret-down"></i> English
         </h6>
       </div>
     </>
