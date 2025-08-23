@@ -12,8 +12,11 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.5.2",
+    "react-photo-album": "^3.1.0",
     "react-router": "^7.7.0",
-    "swiper": "^11.2.10"
+    "swiper": "^11.2.10",
+    "yet-another-react-lightbox": "^1.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

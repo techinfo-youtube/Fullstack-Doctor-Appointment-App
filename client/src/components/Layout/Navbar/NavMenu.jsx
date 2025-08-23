@@ -35,7 +35,7 @@ const NavMenu = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/gallary">
+                <NavLink className="nav-link" to="/gallery">
                   Gallary
                 </NavLink>
               </li>
