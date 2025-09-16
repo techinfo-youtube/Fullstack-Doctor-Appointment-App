@@ -9,6 +9,10 @@ import Home from "./pages/Home";
 import { Routes, Route } from "react-router";
 import { Toaster } from "react-hot-toast";
 import Login from "./pages/Auth/Login";
+import AllDoctors from "./pages/Doctors/AllDoctors";
+import Appointments from "./pages/Doctors/Appointments";
+import UserProfile from "./pages/User/UserProfile";
+import MyAppointments from "./pages/User/MyAppointments";
 
 function App() {
   return (
@@ -22,6 +26,10 @@ function App() {
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/doctors" element={<AllDoctors />} />
+        <Route path="/doctors/:id" element={<Appointments />} />
+        <Route path="/user/profile" element={<UserProfile />} />
+        <Route path="/user/appointments" element={<MyAppointments />} />
       </Routes>
       <Footer />
     </>
